@@ -1,0 +1,903 @@
+{
+ "info": {
+  "name": "El Padré",
+  "city": "Tlemcen",
+  "kind": "Burgers · Tacos · Pizzas · Crispy · Crêpes",
+  "tagline": "Smash burgers, tacos, pizzas et crispy à Kiffane, Tlemcen. Sur place ou à emporter, 7j/7.",
+  "phone": "+213770551331",
+  "phone_display": "0770 55 13 31",
+  "address": "36, Bd Derrar Abderrahmane, Local 04, Kiffane, Tlemcen 13000",
+  "lat": 34.8846374,
+  "lng": -1.3250186,
+  "rating": "3,4",
+  "reviews_count": "73",
+  "open": true,
+  "notice": "",
+  "about": "El Padré, c’est le spot street-food de Kiffane, boulevard Derrar Abderrahmane. Sous le portrait du Padré et ses néons, on vient pour les smash burgers (jusqu’au 4x smash « El Padré »), les tacos, les pizzas Normale ou Méga, le crispy à partager en Family menu et les crêpes. Déco briques, néons et ambiance qui plaît : un client la note 10/10.",
+  "facebook": "",
+  "instagram": "",
+  "whatsapp": ""
+ },
+ "hours": [
+  {
+   "day": "Lundi",
+   "slots": "11:00-23:00"
+  },
+  {
+   "day": "Mardi",
+   "slots": "11:00-23:00"
+  },
+  {
+   "day": "Mercredi",
+   "slots": "11:00-23:00"
+  },
+  {
+   "day": "Jeudi",
+   "slots": "11:00-23:00"
+  },
+  {
+   "day": "Vendredi",
+   "slots": "16:00-23:00"
+  },
+  {
+   "day": "Samedi",
+   "slots": "11:00-23:00"
+  },
+  {
+   "day": "Dimanche",
+   "slots": "11:00-23:00"
+  }
+ ],
+ "menu": [
+  {
+   "name": "Burgers",
+   "extras": [
+    {
+     "name": "Sauce maison",
+     "price": "50"
+    },
+    {
+     "name": "Oeuf",
+     "price": "50"
+    },
+    {
+     "name": "Oignon caramélisé",
+     "price": "80"
+    },
+    {
+     "name": "Gruyère",
+     "price": "100"
+    },
+    {
+     "name": "Camembert",
+     "price": "100"
+    },
+    {
+     "name": "Viande hachée",
+     "price": "200"
+    }
+   ],
+   "items": [
+    {
+     "name": "Smash Burger",
+     "price": "300",
+     "desc": "Petite galette de viande hachée, salade, tomate, fromage, sauce américaine"
+    },
+    {
+     "name": "El Classico (double smash)",
+     "price": "500",
+     "desc": "Viande hachée, salade, tomate, fromage, cornichon, sauce américaine"
+    },
+    {
+     "name": "El Pollo",
+     "price": "500",
+     "desc": "Chicken tenders, salade, tomate, fromage, sauce à l’ail"
+    },
+    {
+     "name": "La Cebolla (double smash)",
+     "price": "550",
+     "desc": "Viande hachée (x2), salade, tomate confite, sauce Big Mac, fromage"
+    },
+    {
+     "name": "La Barbacoa (double smash)",
+     "price": "550",
+     "desc": "Viande hachée (x2), salade, tomate confite, sauce barbecue, fromage, oignons caramélisés"
+    },
+    {
+     "name": "Ajo (double smash)",
+     "price": "600",
+     "desc": "Viande hachée (x2), salade, tomate confite, sauce à l’ail, oeuf"
+    },
+    {
+     "name": "El Dulce (double smash)",
+     "price": "600",
+     "desc": "Viande hachée (x2), salade, tomate, sauce au miel, camembert"
+    },
+    {
+     "name": "El Bosque (double smash)",
+     "price": "700",
+     "desc": "Viande hachée (x2), sauce campagnarde, champignon frais, oignons caramélisés, fromage"
+    },
+    {
+     "name": "El Padré Mix",
+     "price": "750",
+     "desc": "Viande hachée, chicken tenders, salade, tomate, double fromage, sauce au choix"
+    },
+    {
+     "name": "El Padré (4x smash)",
+     "price": "800",
+     "desc": "Viande hachée (4x), salade, tomate, double fromage, sauce au choix"
+    }
+   ]
+  },
+  {
+   "name": "Sandwichs",
+   "extras": [
+    {
+     "name": "Sauce maison",
+     "price": "50"
+    },
+    {
+     "name": "Oeuf",
+     "price": "50"
+    },
+    {
+     "name": "Oignon caramélisé",
+     "price": "80"
+    },
+    {
+     "name": "Gruyère",
+     "price": "100"
+    },
+    {
+     "name": "Camembert",
+     "price": "100"
+    },
+    {
+     "name": "Viande hachée",
+     "price": "200"
+    }
+   ],
+   "items": [
+    {
+     "name": "Pollo",
+     "price": "500",
+     "desc": "Baguette de pain farcie au chicken tenders, salade, tomate, sauce à l’ail, fromage"
+    },
+    {
+     "name": "Marinado",
+     "price": "550",
+     "desc": "Baguette de pain farcie au poulet mariné à la crème fraîche, salade, tomate, fromage"
+    },
+    {
+     "name": "Carne",
+     "price": "600",
+     "desc": "Baguette de pain farcie à la viande hachée, salade, tomate, salsa de persil, oignons caramélisés, fromage"
+    },
+    {
+     "name": "Bosque",
+     "price": "650",
+     "desc": "Baguette de pain farcie au poulet et aux champignons frais sautés à la crème campagnarde, fromage"
+    },
+    {
+     "name": "Mexicano",
+     "price": "650",
+     "desc": "Baguette de pain farcie au poulet et au confit de piment piquant, maïs, fromage"
+    },
+    {
+     "name": "Buffalo",
+     "price": "650",
+     "desc": "Pain maison, viande hachée, salade, tomate, fromage, oeuf, ketchup, mayonnaise Lesieur"
+    },
+    {
+     "name": "4 Fromages",
+     "price": "650",
+     "desc": "Pain maison, poulet, 4 fromages"
+    },
+    {
+     "name": "Marinière",
+     "price": "800",
+     "desc": "Pain maison, crevettes, poulet, salade, tomate, fromage"
+    },
+    {
+     "name": "Crevettes",
+     "price": "900",
+     "desc": "Pain maison, crevettes, salade, tomate, fromage"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "extras": [
+    {
+     "name": "Sauce maison",
+     "price": "50"
+    },
+    {
+     "name": "Oeuf",
+     "price": "50"
+    },
+    {
+     "name": "Oignon caramélisé",
+     "price": "80"
+    },
+    {
+     "name": "Gruyère",
+     "price": "100"
+    },
+    {
+     "name": "Camembert",
+     "price": "100"
+    },
+    {
+     "name": "Viande hachée",
+     "price": "200"
+    }
+   ],
+   "items": [
+    {
+     "name": "Pollo",
+     "price": "650",
+     "desc": "Sauce fromagère, chicken tenders, frites, sauce au choix"
+    },
+    {
+     "name": "Mexicain",
+     "price": "700",
+     "desc": "Poulet mariné, poivre, oignon, sauce mexicaine épicée"
+    },
+    {
+     "name": "5 Fromages",
+     "price": "700",
+     "desc": "Poulet, 4 fromages"
+    },
+    {
+     "name": "Pollo Marinado",
+     "price": "700",
+     "desc": "Sauce fromagère, poulet mariné, frites, sauce au choix"
+    },
+    {
+     "name": "Carne",
+     "price": "700",
+     "desc": "Sauce fromagère, viande hachée, frites, sauce au choix"
+    },
+    {
+     "name": "Buffalo",
+     "price": "750",
+     "desc": "Viande hachée, oeuf, fromage, ketchup, mayonnaise Lesieur"
+    },
+    {
+     "name": "Mixado",
+     "price": "750",
+     "desc": "Sauce fromagère, viande hachée, chicken tenders, frites, sauce au choix"
+    }
+   ]
+  },
+  {
+   "name": "Pizzas",
+   "note": "Normale / Méga · S.T. = sauce tomate, S.B. = sauce blanche",
+   "extras": [
+    {
+     "name": "Bordure fromage",
+     "price": "100"
+    },
+    {
+     "name": "Sauce blanche",
+     "price": "100"
+    },
+    {
+     "name": "Champignon",
+     "price": "200"
+    },
+    {
+     "name": "Gruyère",
+     "price": "150"
+    },
+    {
+     "name": "Camembert",
+     "price": "150"
+    }
+   ],
+   "items": [
+    {
+     "name": "Marguerite",
+     "price": "500",
+     "desc": "S.T., cheddar, mozza, gruyère, herbes de Provence",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "500"
+      },
+      {
+       "name": "Méga",
+       "price": "1500"
+      }
+     ]
+    },
+    {
+     "name": "Végétarienne",
+     "price": "700",
+     "desc": "S.T., aubergine, courgette, poivron, oignons, champignons",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "700"
+      },
+      {
+       "name": "Méga",
+       "price": "2100"
+      }
+     ]
+    },
+    {
+     "name": "Thon",
+     "price": "700",
+     "desc": "S.T., thon, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "700"
+      },
+      {
+       "name": "Méga",
+       "price": "2100"
+      }
+     ]
+    },
+    {
+     "name": "Poulet",
+     "price": "750",
+     "desc": "S.T., poulet, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "750"
+      },
+      {
+       "name": "Méga",
+       "price": "2250"
+      }
+     ]
+    },
+    {
+     "name": "Orientale",
+     "price": "750",
+     "desc": "S.T., merguez, oeuf, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "750"
+      },
+      {
+       "name": "Méga",
+       "price": "2250"
+      }
+     ]
+    },
+    {
+     "name": "Régina",
+     "price": "800",
+     "desc": "S.T., viande hachée, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "800"
+      },
+      {
+       "name": "Méga",
+       "price": "2400"
+      }
+     ]
+    },
+    {
+     "name": "Chèvre Miel",
+     "price": "800",
+     "desc": "S.B., poulet, fromage de chèvre, miel, noix, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "800"
+      },
+      {
+       "name": "Méga",
+       "price": "2250"
+      }
+     ]
+    },
+    {
+     "name": "Poulet Fumé",
+     "price": "850",
+     "desc": "S.B., poulet fumé, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "850"
+      },
+      {
+       "name": "Méga",
+       "price": "2550"
+      }
+     ]
+    },
+    {
+     "name": "Fermière",
+     "price": "850",
+     "desc": "S.B., poulet, champignons, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "850"
+      },
+      {
+       "name": "Méga",
+       "price": "2550"
+      }
+     ]
+    },
+    {
+     "name": "Américaine",
+     "price": "900",
+     "desc": "S.B., pepperoni, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "900"
+      },
+      {
+       "name": "Méga",
+       "price": "2700"
+      }
+     ]
+    },
+    {
+     "name": "5 Fromages",
+     "price": "900",
+     "desc": "S.B., cheddar, mozza, gruyère, camembert fumé",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "900"
+      },
+      {
+       "name": "Méga",
+       "price": "2700"
+      }
+     ]
+    },
+    {
+     "name": "Kiri",
+     "price": "900",
+     "desc": "S.T., viande hachée, Kiri, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "900"
+      },
+      {
+       "name": "Méga",
+       "price": "2700"
+      }
+     ]
+    },
+    {
+     "name": "Crevettes",
+     "price": "1000",
+     "desc": "S.T., crevettes, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "1000"
+      },
+      {
+       "name": "Méga",
+       "price": "2700"
+      }
+     ]
+    },
+    {
+     "name": "Saumon",
+     "price": "1200",
+     "desc": "S.B., saumon, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "1200"
+      },
+      {
+       "name": "Méga",
+       "price": "2700"
+      }
+     ]
+    },
+    {
+     "name": "Elite",
+     "price": "1200",
+     "desc": "S.T., viande hachée, poulet, crevettes, cheddar, mozza, gruyère",
+     "sizes": [
+      {
+       "name": "Normale",
+       "price": "1200"
+      },
+      {
+       "name": "Méga",
+       "price": "2700"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Calzones",
+   "extras": [
+    {
+     "name": "Bordure fromage",
+     "price": "100"
+    },
+    {
+     "name": "Sauce blanche",
+     "price": "100"
+    },
+    {
+     "name": "Champignon",
+     "price": "200"
+    },
+    {
+     "name": "Gruyère",
+     "price": "150"
+    },
+    {
+     "name": "Camembert",
+     "price": "150"
+    }
+   ],
+   "items": [
+    {
+     "name": "Calzone Poulet",
+     "price": "700",
+     "desc": "Sauce blanche, poulet, camembert, 3 fromages"
+    },
+    {
+     "name": "Calzone Thon",
+     "price": "700",
+     "desc": "Sauce blanche, thon, fromage"
+    },
+    {
+     "name": "Calzone Viande hachée",
+     "price": "800",
+     "desc": "Sauce blanche, viande hachée, fromage"
+    },
+    {
+     "name": "Calzone Mix",
+     "price": "850",
+     "desc": "Sauce blanche, poulet, viande hachée, fromage"
+    }
+   ]
+  },
+  {
+   "name": "Crispy",
+   "extras": [
+    {
+     "name": "Gruyère",
+     "price": "200"
+    },
+    {
+     "name": "Camembert",
+     "price": "150"
+    }
+   ],
+   "items": [
+    {
+     "name": "Hotwings",
+     "price": "600",
+     "desc": "5 pièces ailes, frites"
+    },
+    {
+     "name": "Tenders",
+     "price": "700",
+     "desc": "3 pièces tenders, frites"
+    },
+    {
+     "name": "Pilons",
+     "price": "700",
+     "desc": "3 pièces pilons, frites"
+    },
+    {
+     "name": "Poutine",
+     "price": "700",
+     "desc": "Tenders, riz, sauce fromagère"
+    },
+    {
+     "name": "Mélange Hotwings",
+     "price": "700",
+     "desc": "2 pièces ailes, 2 pièces tenders, frites"
+    },
+    {
+     "name": "Mélange Pilons",
+     "price": "700",
+     "desc": "2 pièces pilons, 2 pièces tenders, frites"
+    },
+    {
+     "name": "Padré Bowl",
+     "price": "600",
+     "desc": "Frites au fromage, tenders, oignons frits"
+    }
+   ]
+  },
+  {
+   "name": "Family",
+   "note": "Boisson 1 L offerte",
+   "items": [
+    {
+     "name": "Hotwings + Mixte",
+     "price": "2000",
+     "desc": "6 pièces ailes, 5 pièces tenders, frites"
+    },
+    {
+     "name": "Tenders",
+     "price": "2200",
+     "desc": "10 pièces tenders, frites"
+    },
+    {
+     "name": "Pilon",
+     "price": "2200",
+     "desc": "10 pièces pilons, frites"
+    },
+    {
+     "name": "Mix Crispy",
+     "price": "2200",
+     "desc": "3 pièces pilons, 4 pièces ailes, 5 pièces tenders, frites"
+    }
+   ]
+  },
+  {
+   "name": "Salades",
+   "items": [
+    {
+     "name": "La Madrina",
+     "price": "900",
+     "desc": ""
+    },
+    {
+     "name": "Mini César",
+     "price": "400",
+     "desc": ""
+    },
+    {
+     "name": "César",
+     "price": "700",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "name": "Enfant",
+   "items": [
+    {
+     "name": "Menu enfant",
+     "price": "600",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "name": "Sucré",
+   "note": "Crêpes artisanales & crêpes",
+   "extras": [
+    {
+     "name": "Fruits (banane, fraise, ananas)",
+     "price": "150"
+    },
+    {
+     "name": "Bueno",
+     "price": "200"
+    },
+    {
+     "name": "Oreo",
+     "price": "200"
+    },
+    {
+     "name": "Kit Kat",
+     "price": "200"
+    },
+    {
+     "name": "Ferrero",
+     "price": "200"
+    },
+    {
+     "name": "M&M’s",
+     "price": "200"
+    }
+   ],
+   "items": [
+    {
+     "name": "Crêpe artisanale Mordjane noisette",
+     "price": "300",
+     "desc": ""
+    },
+    {
+     "name": "Crêpe artisanale Mordjane blanc",
+     "price": "350",
+     "desc": ""
+    },
+    {
+     "name": "Crêpe artisanale Nutella",
+     "price": "400",
+     "desc": ""
+    },
+    {
+     "name": "Crêpe Mordjane noisette",
+     "price": "250",
+     "desc": ""
+    },
+    {
+     "name": "Crêpe Mordjane blanc",
+     "price": "300",
+     "desc": ""
+    },
+    {
+     "name": "Crêpe Nutella",
+     "price": "350",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "name": "Café",
+   "items": [
+    {
+     "name": "Lait chaud",
+     "price": "70",
+     "desc": ""
+    },
+    {
+     "name": "Espresso",
+     "price": "100",
+     "desc": ""
+    },
+    {
+     "name": "Flat white",
+     "price": "120",
+     "desc": ""
+    },
+    {
+     "name": "Doppio",
+     "price": "200",
+     "desc": ""
+    },
+    {
+     "name": "Jus pressé",
+     "price": "250",
+     "desc": ""
+    },
+    {
+     "name": "Cappuccino",
+     "price": "300",
+     "desc": ""
+    },
+    {
+     "name": "Gold brew",
+     "price": "350",
+     "desc": ""
+    },
+    {
+     "name": "Gold brew cappuccino",
+     "price": "350",
+     "desc": ""
+    },
+    {
+     "name": "Latte macchiato",
+     "price": "350",
+     "desc": ""
+    },
+    {
+     "name": "Jus cocktail",
+     "price": "500",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "name": "Boissons",
+   "items": [
+    {
+     "name": "Soda 1 L",
+     "price": "150",
+     "desc": ""
+    },
+    {
+     "name": "Soda 24 cl",
+     "price": "100",
+     "desc": ""
+    },
+    {
+     "name": "Jus 1 L",
+     "price": "200",
+     "desc": ""
+    },
+    {
+     "name": "Eau minérale",
+     "price": "50",
+     "desc": ""
+    }
+   ]
+  }
+ ],
+ "order_options": {
+  "enabled": true
+ },
+ "gallery": [
+  {
+   "src": "assets/img/salle.webp",
+   "alt": "La salle : briques, néons et portrait du Padré"
+  },
+  {
+   "src": "assets/img/logo-mur.webp",
+   "alt": "Le Padré lumineux au mur"
+  },
+  {
+   "src": "assets/img/burger-plateau.webp",
+   "alt": "Burger servi sur plateau"
+  },
+  {
+   "src": "assets/img/burger-bowl.webp",
+   "alt": "Burger et bowl"
+  },
+  {
+   "src": "assets/img/burger-emporter.webp",
+   "alt": "Burger à emporter"
+  },
+  {
+   "src": "assets/img/tenders.webp",
+   "alt": "Crispy et sauces"
+  },
+  {
+   "src": "assets/img/dessert.webp",
+   "alt": "Bowl gourmand"
+  },
+  {
+   "src": "assets/img/affiche.webp",
+   "alt": "« Trop lourd pour les amateurs ! »"
+  }
+ ],
+ "carte_photos": [
+  {
+   "src": "assets/img/carte-burgers.webp",
+   "alt": "Carte Burgers"
+  },
+  {
+   "src": "assets/img/carte-sandwichs.webp",
+   "alt": "Carte Sandwichs"
+  },
+  {
+   "src": "assets/img/carte-tacos.webp",
+   "alt": "Carte Tacos"
+  },
+  {
+   "src": "assets/img/carte-pizzas1.webp",
+   "alt": "Carte Pizzas"
+  },
+  {
+   "src": "assets/img/carte-pizzas2.webp",
+   "alt": "Carte Pizzas & Calzones"
+  },
+  {
+   "src": "assets/img/carte-crispy.webp",
+   "alt": "Carte Crispy & Family"
+  },
+  {
+   "src": "assets/img/carte-sucre.webp",
+   "alt": "Carte Sucré & Café"
+  }
+ ],
+ "reviews": [
+  {
+   "author": "Riad",
+   "date": "il y a un an",
+   "text": "Excellent restaurant. Hamburger 10/10 […] Ambiance 10/10, Décoration 10/10, Service excellent."
+  },
+  {
+   "author": "Mahfoud",
+   "date": "il y a 9 mois",
+   "text": "Suite à une commande où quelques produits manquaient, j’ai fait une simple réclamation par téléphone. J’ai été agréablement surpris par leur professionnalisme et leur réactivité : le manque m’a été livré en quelques minutes seulement, avec beaucoup de respect et de sérieux. […] Je recommande sans hésitation."
+  }
+ ]
+}
