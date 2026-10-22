@@ -16,7 +16,8 @@
   "about": "El Padré, c’est le spot street-food de Kiffane, boulevard Derrar Abderrahmane. Sous le portrait du Padré et ses néons, on vient pour les smash burgers (jusqu’au 4x smash « El Padré »), les tacos, les pizzas Normale ou Méga, le crispy à partager en Family menu et les crêpes. Déco briques, néons et ambiance qui plaît : un client la note 10/10.",
   "facebook": "",
   "instagram": "",
-  "whatsapp": ""
+  "whatsapp": "",
+  "menu_note": "Aperçu de la carte — carte complète bientôt en ligne."
  },
  "hours": [
   {
@@ -81,52 +82,62 @@
     {
      "name": "Smash Burger",
      "price": "300",
-     "desc": "Petite galette de viande hachée, salade, tomate, fromage, sauce américaine"
+     "desc": "Petite galette de viande hachée, salade, tomate, fromage, sauce américaine",
+     "hidden": false
     },
     {
      "name": "El Classico (double smash)",
      "price": "500",
-     "desc": "Viande hachée, salade, tomate, fromage, cornichon, sauce américaine"
+     "desc": "Viande hachée, salade, tomate, fromage, cornichon, sauce américaine",
+     "hidden": false
     },
     {
      "name": "El Pollo",
      "price": "500",
-     "desc": "Chicken tenders, salade, tomate, fromage, sauce à l’ail"
+     "desc": "Chicken tenders, salade, tomate, fromage, sauce à l’ail",
+     "hidden": true
     },
     {
      "name": "La Cebolla (double smash)",
      "price": "550",
-     "desc": "Viande hachée (x2), salade, tomate confite, sauce Big Mac, fromage"
+     "desc": "Viande hachée (x2), salade, tomate confite, sauce Big Mac, fromage",
+     "hidden": true
     },
     {
      "name": "La Barbacoa (double smash)",
      "price": "550",
-     "desc": "Viande hachée (x2), salade, tomate confite, sauce barbecue, fromage, oignons caramélisés"
+     "desc": "Viande hachée (x2), salade, tomate confite, sauce barbecue, fromage, oignons caramélisés",
+     "hidden": true
     },
     {
      "name": "Ajo (double smash)",
      "price": "600",
-     "desc": "Viande hachée (x2), salade, tomate confite, sauce à l’ail, oeuf"
+     "desc": "Viande hachée (x2), salade, tomate confite, sauce à l’ail, oeuf",
+     "hidden": true
     },
     {
      "name": "El Dulce (double smash)",
      "price": "600",
-     "desc": "Viande hachée (x2), salade, tomate, sauce au miel, camembert"
+     "desc": "Viande hachée (x2), salade, tomate, sauce au miel, camembert",
+     "hidden": true
     },
     {
      "name": "El Bosque (double smash)",
      "price": "700",
-     "desc": "Viande hachée (x2), sauce campagnarde, champignon frais, oignons caramélisés, fromage"
+     "desc": "Viande hachée (x2), sauce campagnarde, champignon frais, oignons caramélisés, fromage",
+     "hidden": true
     },
     {
      "name": "El Padré Mix",
      "price": "750",
-     "desc": "Viande hachée, chicken tenders, salade, tomate, double fromage, sauce au choix"
+     "desc": "Viande hachée, chicken tenders, salade, tomate, double fromage, sauce au choix",
+     "hidden": true
     },
     {
      "name": "El Padré (4x smash)",
      "price": "800",
-     "desc": "Viande hachée (4x), salade, tomate, double fromage, sauce au choix"
+     "desc": "Viande hachée (4x), salade, tomate, double fromage, sauce au choix",
+     "hidden": false
     }
    ]
   },
@@ -162,47 +173,56 @@
     {
      "name": "Pollo",
      "price": "500",
-     "desc": "Baguette de pain farcie au chicken tenders, salade, tomate, sauce à l’ail, fromage"
+     "desc": "Baguette de pain farcie au chicken tenders, salade, tomate, sauce à l’ail, fromage",
+     "hidden": true
     },
     {
      "name": "Marinado",
      "price": "550",
-     "desc": "Baguette de pain farcie au poulet mariné à la crème fraîche, salade, tomate, fromage"
+     "desc": "Baguette de pain farcie au poulet mariné à la crème fraîche, salade, tomate, fromage",
+     "hidden": true
     },
     {
      "name": "Carne",
      "price": "600",
-     "desc": "Baguette de pain farcie à la viande hachée, salade, tomate, salsa de persil, oignons caramélisés, fromage"
+     "desc": "Baguette de pain farcie à la viande hachée, salade, tomate, salsa de persil, oignons caramélisés, fromage",
+     "hidden": true
     },
     {
      "name": "Bosque",
      "price": "650",
-     "desc": "Baguette de pain farcie au poulet et aux champignons frais sautés à la crème campagnarde, fromage"
+     "desc": "Baguette de pain farcie au poulet et aux champignons frais sautés à la crème campagnarde, fromage",
+     "hidden": true
     },
     {
      "name": "Mexicano",
      "price": "650",
-     "desc": "Baguette de pain farcie au poulet et au confit de piment piquant, maïs, fromage"
+     "desc": "Baguette de pain farcie au poulet et au confit de piment piquant, maïs, fromage",
+     "hidden": true
     },
     {
      "name": "Buffalo",
      "price": "650",
-     "desc": "Pain maison, viande hachée, salade, tomate, fromage, oeuf, ketchup, mayonnaise Lesieur"
+     "desc": "Pain maison, viande hachée, salade, tomate, fromage, oeuf, ketchup, mayonnaise Lesieur",
+     "hidden": true
     },
     {
      "name": "4 Fromages",
      "price": "650",
-     "desc": "Pain maison, poulet, 4 fromages"
+     "desc": "Pain maison, poulet, 4 fromages",
+     "hidden": true
     },
     {
      "name": "Marinière",
      "price": "800",
-     "desc": "Pain maison, crevettes, poulet, salade, tomate, fromage"
+     "desc": "Pain maison, crevettes, poulet, salade, tomate, fromage",
+     "hidden": true
     },
     {
      "name": "Crevettes",
      "price": "900",
-     "desc": "Pain maison, crevettes, salade, tomate, fromage"
+     "desc": "Pain maison, crevettes, salade, tomate, fromage",
+     "hidden": true
     }
    ]
   },
@@ -238,37 +258,44 @@
     {
      "name": "Pollo",
      "price": "650",
-     "desc": "Sauce fromagère, chicken tenders, frites, sauce au choix"
+     "desc": "Sauce fromagère, chicken tenders, frites, sauce au choix",
+     "hidden": false
     },
     {
      "name": "Mexicain",
      "price": "700",
-     "desc": "Poulet mariné, poivre, oignon, sauce mexicaine épicée"
+     "desc": "Poulet mariné, poivre, oignon, sauce mexicaine épicée",
+     "hidden": true
     },
     {
      "name": "5 Fromages",
      "price": "700",
-     "desc": "Poulet, 4 fromages"
+     "desc": "Poulet, 4 fromages",
+     "hidden": true
     },
     {
      "name": "Pollo Marinado",
      "price": "700",
-     "desc": "Sauce fromagère, poulet mariné, frites, sauce au choix"
+     "desc": "Sauce fromagère, poulet mariné, frites, sauce au choix",
+     "hidden": true
     },
     {
      "name": "Carne",
      "price": "700",
-     "desc": "Sauce fromagère, viande hachée, frites, sauce au choix"
+     "desc": "Sauce fromagère, viande hachée, frites, sauce au choix",
+     "hidden": true
     },
     {
      "name": "Buffalo",
      "price": "750",
-     "desc": "Viande hachée, oeuf, fromage, ketchup, mayonnaise Lesieur"
+     "desc": "Viande hachée, oeuf, fromage, ketchup, mayonnaise Lesieur",
+     "hidden": true
     },
     {
      "name": "Mixado",
      "price": "750",
-     "desc": "Sauce fromagère, viande hachée, chicken tenders, frites, sauce au choix"
+     "desc": "Sauce fromagère, viande hachée, chicken tenders, frites, sauce au choix",
+     "hidden": false
     }
    ]
   },
@@ -311,7 +338,8 @@
        "name": "Méga",
        "price": "1500"
       }
-     ]
+     ],
+     "hidden": false
     },
     {
      "name": "Végétarienne",
@@ -326,7 +354,8 @@
        "name": "Méga",
        "price": "2100"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Thon",
@@ -341,7 +370,8 @@
        "name": "Méga",
        "price": "2100"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Poulet",
@@ -356,7 +386,8 @@
        "name": "Méga",
        "price": "2250"
       }
-     ]
+     ],
+     "hidden": false
     },
     {
      "name": "Orientale",
@@ -371,7 +402,8 @@
        "name": "Méga",
        "price": "2250"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Régina",
@@ -386,7 +418,8 @@
        "name": "Méga",
        "price": "2400"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Chèvre Miel",
@@ -401,7 +434,8 @@
        "name": "Méga",
        "price": "2250"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Poulet Fumé",
@@ -416,7 +450,8 @@
        "name": "Méga",
        "price": "2550"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Fermière",
@@ -431,7 +466,8 @@
        "name": "Méga",
        "price": "2550"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Américaine",
@@ -446,7 +482,8 @@
        "name": "Méga",
        "price": "2700"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "5 Fromages",
@@ -461,7 +498,8 @@
        "name": "Méga",
        "price": "2700"
       }
-     ]
+     ],
+     "hidden": false
     },
     {
      "name": "Kiri",
@@ -476,7 +514,8 @@
        "name": "Méga",
        "price": "2700"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Crevettes",
@@ -491,7 +530,8 @@
        "name": "Méga",
        "price": "2700"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Saumon",
@@ -506,7 +546,8 @@
        "name": "Méga",
        "price": "2700"
       }
-     ]
+     ],
+     "hidden": true
     },
     {
      "name": "Elite",
@@ -521,7 +562,8 @@
        "name": "Méga",
        "price": "2700"
       }
-     ]
+     ],
+     "hidden": true
     }
    ]
   },
@@ -553,22 +595,26 @@
     {
      "name": "Calzone Poulet",
      "price": "700",
-     "desc": "Sauce blanche, poulet, camembert, 3 fromages"
+     "desc": "Sauce blanche, poulet, camembert, 3 fromages",
+     "hidden": true
     },
     {
      "name": "Calzone Thon",
      "price": "700",
-     "desc": "Sauce blanche, thon, fromage"
+     "desc": "Sauce blanche, thon, fromage",
+     "hidden": true
     },
     {
      "name": "Calzone Viande hachée",
      "price": "800",
-     "desc": "Sauce blanche, viande hachée, fromage"
+     "desc": "Sauce blanche, viande hachée, fromage",
+     "hidden": true
     },
     {
      "name": "Calzone Mix",
      "price": "850",
-     "desc": "Sauce blanche, poulet, viande hachée, fromage"
+     "desc": "Sauce blanche, poulet, viande hachée, fromage",
+     "hidden": true
     }
    ]
   },
@@ -588,37 +634,44 @@
     {
      "name": "Hotwings",
      "price": "600",
-     "desc": "5 pièces ailes, frites"
+     "desc": "5 pièces ailes, frites",
+     "hidden": true
     },
     {
      "name": "Tenders",
      "price": "700",
-     "desc": "3 pièces tenders, frites"
+     "desc": "3 pièces tenders, frites",
+     "hidden": false
     },
     {
      "name": "Pilons",
      "price": "700",
-     "desc": "3 pièces pilons, frites"
+     "desc": "3 pièces pilons, frites",
+     "hidden": true
     },
     {
      "name": "Poutine",
      "price": "700",
-     "desc": "Tenders, riz, sauce fromagère"
+     "desc": "Tenders, riz, sauce fromagère",
+     "hidden": true
     },
     {
      "name": "Mélange Hotwings",
      "price": "700",
-     "desc": "2 pièces ailes, 2 pièces tenders, frites"
+     "desc": "2 pièces ailes, 2 pièces tenders, frites",
+     "hidden": true
     },
     {
      "name": "Mélange Pilons",
      "price": "700",
-     "desc": "2 pièces pilons, 2 pièces tenders, frites"
+     "desc": "2 pièces pilons, 2 pièces tenders, frites",
+     "hidden": true
     },
     {
      "name": "Padré Bowl",
      "price": "600",
-     "desc": "Frites au fromage, tenders, oignons frits"
+     "desc": "Frites au fromage, tenders, oignons frits",
+     "hidden": false
     }
    ]
   },
@@ -629,22 +682,26 @@
     {
      "name": "Hotwings + Mixte",
      "price": "2000",
-     "desc": "6 pièces ailes, 5 pièces tenders, frites"
+     "desc": "6 pièces ailes, 5 pièces tenders, frites",
+     "hidden": true
     },
     {
      "name": "Tenders",
      "price": "2200",
-     "desc": "10 pièces tenders, frites"
+     "desc": "10 pièces tenders, frites",
+     "hidden": true
     },
     {
      "name": "Pilon",
      "price": "2200",
-     "desc": "10 pièces pilons, frites"
+     "desc": "10 pièces pilons, frites",
+     "hidden": true
     },
     {
      "name": "Mix Crispy",
      "price": "2200",
-     "desc": "3 pièces pilons, 4 pièces ailes, 5 pièces tenders, frites"
+     "desc": "3 pièces pilons, 4 pièces ailes, 5 pièces tenders, frites",
+     "hidden": true
     }
    ]
   },
@@ -654,17 +711,20 @@
     {
      "name": "La Madrina",
      "price": "900",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Mini César",
      "price": "400",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "César",
      "price": "700",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     }
    ]
   },
@@ -674,7 +734,8 @@
     {
      "name": "Menu enfant",
      "price": "600",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     }
    ]
   },
@@ -711,32 +772,38 @@
     {
      "name": "Crêpe artisanale Mordjane noisette",
      "price": "300",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Crêpe artisanale Mordjane blanc",
      "price": "350",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Crêpe artisanale Nutella",
      "price": "400",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Crêpe Mordjane noisette",
      "price": "250",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Crêpe Mordjane blanc",
      "price": "300",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Crêpe Nutella",
      "price": "350",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     }
    ]
   },
@@ -746,52 +813,62 @@
     {
      "name": "Lait chaud",
      "price": "70",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Espresso",
      "price": "100",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Flat white",
      "price": "120",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Doppio",
      "price": "200",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Jus pressé",
      "price": "250",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Cappuccino",
      "price": "300",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Gold brew",
      "price": "350",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Gold brew cappuccino",
      "price": "350",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Latte macchiato",
      "price": "350",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Jus cocktail",
      "price": "500",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     }
    ]
   },
@@ -801,22 +878,26 @@
     {
      "name": "Soda 1 L",
      "price": "150",
-     "desc": ""
+     "desc": "",
+     "hidden": false
     },
     {
      "name": "Soda 24 cl",
      "price": "100",
-     "desc": ""
+     "desc": "",
+     "hidden": false
     },
     {
      "name": "Jus 1 L",
      "price": "200",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     },
     {
      "name": "Eau minérale",
      "price": "50",
-     "desc": ""
+     "desc": "",
+     "hidden": true
     }
    ]
   }
@@ -856,36 +937,6 @@
   {
    "src": "assets/img/affiche.webp",
    "alt": "« Trop lourd pour les amateurs ! »"
-  }
- ],
- "carte_photos": [
-  {
-   "src": "assets/img/carte-burgers.webp",
-   "alt": "Carte Burgers"
-  },
-  {
-   "src": "assets/img/carte-sandwichs.webp",
-   "alt": "Carte Sandwichs"
-  },
-  {
-   "src": "assets/img/carte-tacos.webp",
-   "alt": "Carte Tacos"
-  },
-  {
-   "src": "assets/img/carte-pizzas1.webp",
-   "alt": "Carte Pizzas"
-  },
-  {
-   "src": "assets/img/carte-pizzas2.webp",
-   "alt": "Carte Pizzas & Calzones"
-  },
-  {
-   "src": "assets/img/carte-crispy.webp",
-   "alt": "Carte Crispy & Family"
-  },
-  {
-   "src": "assets/img/carte-sucre.webp",
-   "alt": "Carte Sucré & Café"
   }
  ],
  "reviews": [

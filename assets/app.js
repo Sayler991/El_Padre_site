@@ -12,9 +12,9 @@ function menu(){
   var cs=cats();if(TAB>=cs.length)TAB=0;
   $('#tabs').innerHTML=cs.map(function(c,i){return'<button type="button" role="tab" aria-selected="'+(i===TAB)+'" class="'+(i===TAB?'on':'')+'" data-t="'+i+'">'+esc(c.name)+'</button>'}).join('');
   var c=cs[TAB],ci=(D.menu||[]).indexOf(c);if(!c){$('#cat').innerHTML='';return}
-  $('#cat').innerHTML='<div class="cat-h"><h3>'+esc(c.name)+'</h3>'+(c.note?'<small>'+esc(c.note)+'</small>':'')+'</div><ul class="items">'+c.items.map(function(it,ii){if(it.hidden===true)return'';
+  $('#cat').classList.remove('sw');void $('#cat').offsetWidth;$('#cat').classList.add('sw');$('#cat').innerHTML='<div class="cat-h"><h3>'+esc(c.name)+'</h3>'+(c.note?'<small>'+esc(c.note)+'</small>':'')+'</div><ul class="items">'+c.items.map(function(it,ii){if(it.hidden===true)return'';
     var pr=it.sizes&&it.sizes.length?it.sizes.map(function(s){return esc(s.name)+' '+da(n(s.price))}).join(' · '):'';
-    return'<li class="item"><div class="it-h"><b>'+esc(it.name)+'</b><span class="dots"></span><span class="pr">'+da(n(it.price))+'</span></div>'+(pr?'<div class="sz">'+pr+'</div>':'')+(it.desc?'<p>'+esc(it.desc)+'</p>':'')+(on()?'<button class="od-plus" type="button" data-ci="'+ci+'" data-ii="'+ii+'">+ Ajouter</button>':'')+'</li>'}).join('')+'</ul>'+
+    return'<li class="item" style="--d:'+(ii*60)+'ms"><div class="it-h"><b>'+esc(it.name)+'</b><span class="dots"></span><span class="pr">'+da(n(it.price))+'</span></div>'+(pr?'<div class="sz">'+pr+'</div>':'')+(it.desc?'<p>'+esc(it.desc)+'</p>':'')+(on()?'<button class="od-plus" type="button" data-ci="'+ci+'" data-ii="'+ii+'">+ Ajouter</button>':'')+'</li>'}).join('')+'</ul>'+
     ((c.extras||[]).length?'<div class="xt"><b>Suppléments</b><br>'+c.extras.map(function(e){return'<span>'+esc(e.name)+' · '+da(n(e.price))+'</span>'}).join('')+'</div>':'');
   $$('#tabs button').forEach(function(b){b.onclick=function(){TAB=+b.dataset.t;menu();var t=$('#tabs');t.scrollTo({left:b.offsetLeft-20,behavior:'smooth'})}});
   $$('.od-plus').forEach(function(b){b.onclick=function(){openItem(+b.dataset.ci,+b.dataset.ii)}});
@@ -39,7 +39,7 @@ function apply(d){D=d||{};var i=D.info||{};
   $$('a[data-tel]').forEach(function(a){a.href='tel:'+String(i.phone||'').replace(/[^0-9+]/g,'')});
   var nt=$('#notice');nt.hidden=!i.notice;nt.textContent=i.notice||'';
   [['facebook','#s-fb'],['instagram','#s-ig'],['whatsapp','#s-wa']].forEach(function(p){var a=$(p[1]),v=String(i[p[0]]||'').trim();if(!a)return;a.hidden=!v;if(v)a.href=p[0]==='whatsapp'?'https://wa.me/'+v.replace(/[^0-9]/g,''):v});
-  G=[];gal('#gal',D.gallery);gal('#gal-carte',D.carte_photos);
+  G=[];gal('#gal',D.gallery);
   $('#revs').innerHTML=(D.reviews||[]).map(function(r){return'<blockquote class="rev"><p>« '+esc(r.text)+' »</p><footer><b>'+esc(r.author)+'</b> · '+esc(r.date||'')+' · Avis Google</footer></blockquote>'}).join('');
   menu();hours();bar()}
 /* ---------- commande ---------- */
